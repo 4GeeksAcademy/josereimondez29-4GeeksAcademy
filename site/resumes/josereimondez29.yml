@@ -1,0 +1,146 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose
+    last_name: Reimondez
+    
+    # Define yourself in 4-5 words
+    motto: I love code!
+    
+    # Focus
+    focus: Be a good person
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Versatile individual with experience in collecting, transforming, and organizing data for analysis to help make informed decisions. Excellent knowledge and command of platforms for effective data analysis, including SQL, spreadsheets, Tableau and Python language. Strong analytical, communication and organizational skills. I recently earned the Google Computational Data Analysis Certificate, a rigorous and hands-on program that covers the entire process of computational data analysis.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://ca.slack-edge.com/T0BFXMWMV-U066DABAYTB-161ce07df869-512
+
+    # Contact Information
+    email: josereimondez29@gmail.com #optional
+    phone: +34 624 604 647 #optional
+    website: josereimondez.com #optional
+    linkedin: https://www.linkedin.com/in/josereimondez #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: josereimondez29
+    stack-overflow: 23155003/jose-reimondez # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Code
+
+      - item: Data Science
+
+      - item: Go to beach
+
+# Your previous education
+education:
+    - degree: Computer Science
+      university: Latina University of Panama
+      university_logo: https://unilp.edlioadmin.com/pics/UNILP_LOGO.gif
+      time: 2000 - 2004
+      
+    - degree: Data Analyst
+      university: Google
+      university_logo: https://images.credly.com/size/680x680/images/d41de2b7-cbc2-47ec-bcf1-ebecbe83872f/GCC_badge_DA_1000x1000.png
+      time: 2022 - 2023
+
+    - degree: Full Stack Software Developer (in course)
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2024
+
+    - degree: PCAP Programming Essentials in Python
+      university: Cisco Networking Academy
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Cisco_academy_logo.svg/2048px-Cisco_academy_logo.svg.png
+      time: 2023
+      
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Fleet Engineer
+      time: 2022 - Present
+      company: Ricoh Spain, Spain/Madrid
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Ricoh_logo_2012.svg/2560px-Ricoh_logo_2012.svg.png
+      details: |
+        Responsible for Cisco Webex Rooms, Support Management and AudioVisual Implementation on site or via Control Hub in multiple video conference rooms with Cisco, Extron, Creston, Shure, Barco, Kramer equipment or as required. I also perform audiovisual production work for events in the auditorium. Fleet Engineer at Pérez Llorca Abogados.
+
+    - role: Senior AudioVisual
+      time: 2021 - 2022
+      company: Telefonica Spain, Spain/Madrid
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Telef%C3%B3nica_2021_logo.svg/2560px-Telef%C3%B3nica_2021_logo.svg.png
+      details: |
+        Provide excellent customer service at all times, Performed well in a fast-paced and fast-changing environment, Demonstrated strong listening skills and strived to meet company objectives, Worked with a high level of confidence and ambition, I continually focused on improving my communication skills and strategies.
+
+    - role: Data Scientist
+      time: 2020 - 2021
+      company: Worldwide
+      # optional
+      company_logo: https://www.osmoscloud.com/blog/wp-content/uploads/2020/03/freelance.jpg
+      details: |
+        They assigned to me different types of projects at a national or international level to carry out exhaustive Data Analysis to help companies meet their goals. For analysis we used tools such as Excel, SQL for databases, Tableau to present graphs and Python. My duties were: Analyze data sets, Perform data cleaning, Create dashboards and reports, Visualize data, Make statistical inferences, Develop statistical learning models, Create complex predictive models, Use statistical tools, Communicate analysis results to interested parties and Convince decision makers.
+
+    - role: AudioVisual Manager
+      time: 2019 - 2021
+      company: RLA LATAM, Panama
+      # optional
+      company_logo: https://www.rla-latam.com/images/Logo_RLA2_n.png
+      details: |
+        Audio Visual Technician of various events, customer service when it comes to logistics and the event
+        and many times it is totally in English, throughout the event since I have to interact
+        very often with clients for my role. I manage the entire Audio Visual and computer area of the company, between
+        Other systems such as Bright Singh and robotic light management, Whatchout and many more. Before and during the pandemic, I carried out virtual and hybrid events using various streaming platforms such as obs, vmix, Wirecast, engage with zoom, MS Teams, among others.
+
+    - role: Data Scientist Jr
+      time: 2017 - 2019
+      company: Innova Service, Panama
+      # optional
+      
+      details: |
+        Collected large amounts of data, transformed raw collected data into formats suitable for analysis and processing, solved business-related problems using data-driven techniques, implemented and tested modeling, classification, or prediction algorithms tailored to problem requirements (Python) helped in approaches to solutions to business problems thanks to the knowledge obtained from the data, communicated and collaborated with the IT and business areas, looked for order and patterns in data, in addition to detecting trends that can help the base of operation of a company , supported in the preparation of market research reports.
+# Your project portfolio
+projects:
+    intro: >
+      Here I share my projects with you:
+
+    assignments:
+      - title: Personal Portofolio
+        # optional
+        # project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://josereimondez.com"
+        tagline: I'm designing it with bootstrap, html, css and some javascript
+
+      
+skills:
+    toolset:
+      - name: Python
+        level: 65%
+
+      - name: JavaScript
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 95%
